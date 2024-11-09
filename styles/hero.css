@@ -1,0 +1,127 @@
+
+@media (max-width: 600px) {
+    .hero-info{
+        padding-top: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #4F311E;
+    }
+
+    .hero-info h1 {
+        /* width: 260px; */
+        position: relative;
+        width: 100%;
+        font-family: "Recoleta Bold";
+        font-size: 26px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .hero-info p {
+        position: relative;
+        width: 100%;
+        /* width: 322px;  */
+        text-align: center;
+        font-size: 14px;
+        font-weight:500;
+        line-height: 1.3rem;
+        color: #FFFFFF;
+        opacity: 80%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .hero-info button {
+        /* width: 270px; */
+        padding: 0 20px;
+        height: 50px;
+        border-radius: 6px;
+        border: none;
+        background-color: #D6A73C;
+        font-size: 16px;
+        font-weight: 500;
+        color: #000000;
+    }
+
+    .hero-image {
+        background-color: #4F311E;
+    }
+
+    .dog-img {
+        width: 100%;
+        position: relative;
+        background-position: center;
+    }
+
+}
+
+@media (min-width: 600px) {
+    .hero-section {
+        background-color: #4F311E;
+        background-image: url("../pictures/hero-dog.png");
+        background-repeat: no-repeat;
+        background-position: 725px -20px;
+        background-size: 560px;
+        /* background: #4F311E; */
+        display: flex;
+        align-items: center;
+    }
+
+    .hero-info {
+        margin-top: 40px;
+        margin-left: 125px;
+    }
+
+    .hero-info h1 {
+        color: #FFFFFF;
+        font-size: 60px;
+        font-family: "Recoleta Bold";
+        position: relative;
+        width: 100%;
+    }
+
+    .hero-info p {
+        position: relative;
+        width: 100%;
+        /* width: 550px; */
+        font-size: 16px;
+        font-weight:500;
+        line-height: 1.3rem;
+        color: #FFFFFF;
+        opacity: 80%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .hero-image img {
+        display: none;
+    }
+
+    .hero-info button {
+        /* width: 270px; */
+        padding: 0 20px;
+        height: 50px;
+        border-radius: 6px;
+        border: none;
+        background-color: #D6A73C;
+        font-size: 16px;
+        font-weight: 500;
+        color: #000000;
+    }
+
+}
+
+@media (max-width: 300px) {
+    .hero-info p {
+         position: relative;
+         width: 100%;
+    }
+}
+
+
+
+
+.container {
+    border:  1px solid red;
+}
